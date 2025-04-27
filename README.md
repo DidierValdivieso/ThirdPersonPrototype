@@ -26,3 +26,18 @@ El enfoque principal fue construir una base sólida de **programación de gamepl
       AddMovementInput(GetActorRightVector(), MovementVector.X);
   }
 
+---
+
+### 🔥 Notas:
+
+- Para poner el **GIF**, debes primero subirlo a GitHub.
+- Si lo tienes localmente:
+  - Lo subes como un archivo normal (por ejemplo en una carpeta `/Images/Gameplay.gif`).
+  - Luego en el README pones:
+
+    ```markdown
+    ![Gameplay Demo](Images/Gameplay.gif)
+    ```
+
+¿Quieres que también te prepare el comando para subir el GIF fácilmente a tu repositorio? 🚀  
+(Solo sería `git add`, `commit` y `push`, rapidísimo).
