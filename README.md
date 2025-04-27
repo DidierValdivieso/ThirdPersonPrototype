@@ -89,22 +89,6 @@ void AThirdPersonPrototypeCharacter::PlayFootstepSound()
 
 ---
 
-## 💂🏻‍♂️ Estructura general del proyecto
-
-```
-ThirdPersonPrototype/
-├── Source/
-│   └── ThirdPersonPrototype/
-│       ├── ThirdPersonPrototypeCharacter.h/cpp
-│       ├── ThirdPersonPrototypeGameMode.h/cpp
-│       └── [Otros archivos de gameplay]
-├── Config/
-├── Content/
-└── ThirdPersonPrototype.uproject
-```
-
----
-
 ## 🚀 Tecnologías utilizadas
 
 - Unreal Engine 5
