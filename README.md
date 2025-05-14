@@ -1,22 +1,22 @@
 # 🎮 Third Person Prototype
 
-Este proyecto es un **prototipo de lógica en tercera persona** desarrollado en **Unreal Engine 5** utilizando **C++**.
+This project is a **third-person logic prototype** developed in **Unreal Engine 5** using **C++**.
 
-El objetivo fue construir una base sólida enfocada en **movimiento del personaje**, **manejo de la cámara** y **sistema de sonidos**, priorizando **claridad de código** y **arquitectura limpia**.
+The goal was to build a solid foundation focused on **character movement**, **camera handling**, and **sound system**, prioritizing **code clarity** and **clean architecture**.
 
 ---
 
-## 🔄 Demo en acción
+## 🔄 Demo in action
 
 ![Gameplay Demo](ThirdPersonPrototype.gif)
 
 ---
 
-## 🛠️ Características principales
+## 🛠️ Key Features
 
-### 🏋️ Movimiento del personaje
+### 🏋️ Character Movement
 
-Movimiento suave en tercera persona controlado completamente en C++.
+Smooth third-person movement controlled entirely in C++.
 
 ```cpp
 void AThirdPersonPrototypeCharacter::Move(const FInputActionValue& Value)
@@ -36,13 +36,13 @@ void AThirdPersonPrototypeCharacter::Move(const FInputActionValue& Value)
 }
 ```
 
-🔹 *Permite caminar en cualquier dirección relativa a la cámara.*
+🔹 *Allows you to walk in any direction relative to the camera.*
 
 ---
 
-### 🎥 Control de cámara en tercera persona
+### 🎥 Third-person camera control
 
-Cámara libre con control de rotación vertical y horizontal.
+Free camera with vertical and horizontal rotation control.
 
 ```cpp
 void AThirdPersonPrototypeCharacter::Look(const FInputActionValue& Value)
@@ -56,13 +56,13 @@ void AThirdPersonPrototypeCharacter::Look(const FInputActionValue& Value)
 }
 ```
 
-🔹 *El jugador puede mirar libremente con el mouse mientras se desplaza.*
+🔹 *The player can freely look around with the mouse while moving.*
 
 ---
 
-### 🔊 Reproducción de sonidos
+### 🔊 Sound Playback
 
-Sistema básico para reproducir sonidos durante eventos de gameplay.
+Basic system for playing sounds during gameplay events.
 
 ```cpp
 void AThirdPersonPrototypeCharacter::PlayFootstepSound()
@@ -74,22 +74,22 @@ void AThirdPersonPrototypeCharacter::PlayFootstepSound()
 }
 ```
 
-🔹 *Sonidos de pasos sincronizados con el movimiento.*
+🔹 *Sounds of footsteps synchronized with movement.*
 
 ---
 
-## 🧠 Enfoque de desarrollo
+## 🧠 Development Approach
 
-- **Código modular y extensible** pensado para crecimiento futuro.
-- **Separación clara** entre movimiento, cámara y sonido.
-- Preparado para añadir mecánicas como:
-  - Interacción con objetos
-  - Combate cuerpo a cuerpo
-  - Animaciones avanzadas
+- **Modular and extensible code** designed for future growth.
+- **Clear separation** between movement, camera, and sound.
+- Ready to add mechanics such as:
+- Object interaction
+- Melee combat
+- Advanced animations
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## 🚀 Technologies used
 
 - Unreal Engine 5
 - C++
